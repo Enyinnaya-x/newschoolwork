@@ -1,0 +1,799 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+.viddiv{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.viddiv>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.firsttext{
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 100px;
+}
+.firsttext a{
+    color: lightblue;
+    text-decoration: none;
+}
+.firsttext p{
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+.firsttext h4{
+    font-size: 18px;
+    position: relative;
+    top: 14px;
+}
+.firsttext h1{
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    top: 12px;
+}
+ .btn1{
+    background-color: #a12d2f;
+    border-radius: 16px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+}
+.secondset{
+    background-image: url(images/3619520.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    padding: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: #a12d2f;
+    color: #fff;
+    border-radius: 16px;
+    width: 200px;
+    height: fit-content;
+    padding: 20px 80px;
+    text-align: center;
+}
+.box1:hover{
+    background-color: #d66c33;
+}
+.box1:hover .fa{
+    color: #a12d2f;
+}
+.box1:hover .icons{
+    border-color: #a12d2f;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 24px;
+    border: 4px solid #d66c33;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.icons>.fa{
+    color: #d66c33;
+}
+.message{
+    margin-top: 130px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.message>h2{
+    font-weight: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.box2{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    height: 300px;
+    width: fit-content;
+    line-height: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    margin-top: 16px;
+    text-align: center;
+}
+.buttons>button{
+    width: 80%;
+    padding: 12px;
+    border-radius: 18px;
+}
+.myimage{
+    background-image: url(images/young-student-learning-library.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.myimage2{
+    background-image: url(images/back-view-people-class.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.myimage3{
+    background-image: url(images/portrait-happy-young-african-male-student.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.myimage4{
+    background-image: url(images/celebration-education-graduation-student-success-learning-concept.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.otherbtn{
+    padding: 16px;
+}
+.btn3{
+    background-color: #fff;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 16px;
+    font-weight: 600;
+}
+.box3{
+    border-radius: 20px;
+    background-color: #fff;
+    height: 420px;
+    width: 395px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+}
+.date>span{
+    color: #a12d2f;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    height: 60px;
+}
+.one span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.one p{
+    font-size: 12px;
+}
+.wow{
+    visibility: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    align-items: center;
+    padding: 16px;
+    height: fit-content;
+}
+.specialnav{
+    justify-content: space-between;
+    display: none;
+}
+.menubutton .span{
+    margin-bottom: 2px;
+    height: 4px;
+    width: 26px;
+    border-radius: 8px;
+    background-color: #000;
+    cursor: pointer;
+    display: block;
+}
+.menubutton .fa{
+    cursor: pointer;
+    display: none;
+}
+.list a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: 400;
+}
+.list .special{
+    color: #d66c33;
+}
+.list{
+    width: 90%;
+    padding: 24px 16px;
+    background-color: black;
+    border-radius: 4px;
+    gap: 6px;
+    z-index: 1;
+    position: absolute;
+    left: 570px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    transition: all ease-in-out .4s;
+}
+.specialbtndiv{
+    display: flex;
+    justify-content: end;
+}
+.specialbtndiv button {
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+}
+.newlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1 span{
+    font-weight: 700;
+    font-size: 26px;
+}
+.div2 a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.div2 .special{
+    color: #d66c33;
+}
+.container{
+    background-image: url(images/study-group-african-people.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.secondcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+p{
+    font-weight: 400;
+}
+.box4{
+    color: #fff;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 500px;
+}
+.box4 p{
+    font-size: 14px;
+}
+.box5{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fff;
+    width: 400px;
+    padding : 40px 70px;
+    border-radius: 25px;
+}
+.box5 p{
+    font-size: 14px;
+}
+.btn2{
+   background-color: #d66c33;
+   border-radius: 16px;
+   padding: 10px;
+   border: none;
+   color: #fff;
+}
+.box5 h3{
+    color: #d66c33;
+}
+.box5 span{
+    font-weight: 600;
+}
+.fa{
+    font-weight: 800 !important;
+}
+.oyanau{
+    background-image: url(images/3619520.jpg);
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    width: 100%;
+}
+.othernawa{
+    background: rgba(0, 0, 0, 0.5);
+}
+.message2{
+    padding: 10px;
+    color: #fff;
+}
+.grid2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+}
+.box6 p, .fa{
+    font-size: 14px;
+}
+.myimage5{
+    background-image: url(images/smartphone-near-notebook-eyeglasses-tablet-pen.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+}
+.myimage6{
+    background-image: url(images/front-view-books-with-grey-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+}
+.myimage7{
+    background-image: url(images/PenTips\ _\ Art\ Tools\ for\ the\ Digital\ Canvas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+}
+.myimage8{
+    background-image: url(images/woman-writining-notebook.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+}
+.dummytext{
+    text-align: center;
+    padding: 20px;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.stardom>.fa{
+    color: gold;
+}
+.paint{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.thirdset{
+    background-image: url(images/full-shot-man-studying-classroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.text3{
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+.firststats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+.firststats2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    margin-top: 40px;
+}
+.stats>h2{
+    color: #eda024;
+    font-weight: 700;
+}
+.stats>p{
+    color: #fff;
+    font-size: 14px;
+}
+.stats{
+    background: rgba(255, 255, 255, 0.5);
+    width: 150px;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 30px 60px;
+    text-align: center;
+}
+.split{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.oyanau3{
+    height: fit-content;
+    width: fit-content;
+}
+.oyanau3>video{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.nawa{
+    background: rgba(0, 0, 0, 0.5);
+    height: 130vh;
+}
+.fourthset{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.originalpaint{
+    background-image: url(images/3619520.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    width: 100%;
+}
+.mainform{
+    background-color: #fff;
+    border-radius: 25px;
+    height: 470px;
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputfields>input{
+    border-radius: 18px;
+    background-color: #f5f7f7;
+    color: black;
+    border: 1px solid #f5f7f7;
+    padding: 8px;
+    width: 200px;
+    height: 20px;
+}
+textarea{
+    border-radius: 12px;
+    background-color: #f5f7f7;
+    color: black;
+    border: 1px solid #f5f7f7;
+    padding: 8px;
+    width: 97%;
+    height: 270px;
+}
+.textarea .btn1{
+    margin-top: 10px;
+}
+.inputfields{
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    background-color: #a12d2f;
+    color: #fff;
+    border-radius: 14px;
+    width: 250px;
+    padding: 10px 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    line-height: 40px;
+    height: 480px;
+}
+.phone{
+    width: fit-content;
+    border-bottom: 1px solid rgb(240, 237, 237, 0.5);
+    line-height: 15px;
+    margin-top: 40px;
+}
+.otherphone{
+    border: none;
+}
+.finaltext{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.5);
+}
+.finaltext span{
+    color: #eda024;
+}
+.finaltext>p{
+    font-weight: 600;
+}
+@media (max-width : 620px){
+    *{
+        box-sizing: border-box;
+    }
+    .firsttext p{
+        font-size: 14px;
+    }
+    .firsttext h4{
+        font-size: 18px;
+    }
+    .firsttext h1{
+        font-size: 32px;
+    }
+    .firsttext{
+        align-items: center;
+        line-height: 30px;
+        padding: 20px;
+        letter-spacing: -0.8;
+    }
+    .box1{
+        width: 100%;
+        height: 250px;
+        padding: 40px 50px;
+    }
+    .box1>p{
+        font-size: 14px;
+    }
+    .flex{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .box1>h3{
+        font-size: 20px;
+    }
+    .message>h2{
+        font-size: 22px;
+
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .wow{
+        display: none;
+    }
+    .box2{
+        width: 90%;
+        height: 290px;
+        padding: 20px;
+        line-height: 20px;
+    }
+    .box2 p{
+        font-size: 12px;
+
+    }
+    .box2 h3{
+        font-size: 16px;
+    }
+    .box2 button{
+        font-size: 10px;
+        padding: 8px;
+    }
+    .box3{
+        height: 350px;
+        width: 100%;
+    }
+    .one span{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .one{
+        font-size: 14px;
+        width: 90%;
+    }
+    .mainnav{
+        display: none;
+    }
+    .specialnav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .list{
+        display: none;
+    }
+    .specialnav span{
+        font-size: 16px;
+    }
+    .container{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondcontainer{
+        gap: 20px;
+        align-items: center;
+    }
+    .box4{
+        width: 90%;
+        height: fit-content;
+    }
+    .box4 p{
+        font-size: 14px;
+    }
+    .box4 h3{
+        font-size: 16px;
+    }
+    .box4 button{
+        font-size: 10px;
+        padding: 8px;
+    }
+    .box5{
+        width: 90%;
+        height: fit-content;
+        padding: 30px;
+        border-radius: 14px;
+    }
+    .message2 h2{
+        font-size: 16px;
+    }
+    .box5 p{
+        font-size: 12px;
+    }
+    .box5 h3 {
+        font-size: 20px;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 16px;
+    }
+    .box6{
+        width: 100%;
+        height: 250px;
+    }
+    .box6 p{
+        font-size: 12px;
+    }
+    .dummytext{
+        padding: 6px;
+    }
+    .star{
+        padding: 6px;
+    }
+    .paint{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .split p{
+        font-size: 12px;
+    }
+    .split h2{
+        font-size: 22px;
+    }
+    .stats{
+        width: 170px;
+        padding: 15px 30px;
+
+    }
+    .firststats{
+        padding: 10px;
+    }
+    .firststats2{
+        padding: 10px;
+    }
+    .oyanau3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+    .oyanau3>video{
+        width: 90%;
+        height: 200px;
+    }
+    .form>h3{
+        font-size: 22px;
+    }
+    .fourthset p,span,input,textarea{
+        font-size: 12px;
+    }
+    .fourthset{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .mainform{
+        width: 90%;
+        height: fit-content;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .mainform button{
+        font-size: 12px;
+        padding: 8px;
+    }
+    .inputfields>input{
+    width: 30%;
+    padding: 12px;
+    }
+    .details{
+        width: 90%;
+        height: fit-content;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .details span, p{
+        font-size: 16px;
+    }
+    .finaltext p{
+        font-size: 14px;
+    }
+    /* .footer{
+        position: relative;
+        top: 300px;
+    } */
+
+}
