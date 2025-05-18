@@ -566,7 +566,11 @@ textarea{
     color: #fff;
     text-transform: uppercase;
 }
-.footer{
+.hold{
+    background-image: url(images/3619520.jpg);
+}
+footer{
+    padding: 50px;
     background: rgba(0, 0, 0, 0.5);
 }
 .finaltext span{
@@ -749,10 +753,12 @@ textarea{
         display: flex;
         justify-content: center;
         height: 200px;
+        display: none;
     }
     .oyanau3>video{
         width: 90%;
         height: 200px;
+        display: none;
     }
     .form>h3{
         font-size: 22px;
