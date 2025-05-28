@@ -10,7 +10,7 @@ body{
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
 }
-.viddiv>video{
+.viddiv>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -55,7 +55,7 @@ body{
     color: #fff;
 }
 .secondset{
-    background-image: url(images/3619520.jpg);
+    background-image: url(images/back-view-people-class\ \(5\).jpg);
     background-size: cover;
     background-position: center;
     margin-top: 0;
@@ -349,7 +349,7 @@ p{
     font-weight: 800 !important;
 }
 .oyanau{
-    background-image: url(images/3619520.jpg);
+    background-image: url(images/back-view-people-class\ \(5\).jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
@@ -479,7 +479,7 @@ p{
     height: fit-content;
     width: fit-content;
 }
-.oyanau3>video{
+.oyanau3>img{
     width: 500px;
     height: 350px;
     object-fit: cover;
@@ -755,7 +755,7 @@ footer{
         height: 200px;
         display: none;
     }
-    .oyanau3>video{
+    .oyanau3>img{
         width: 90%;
         height: 200px;
         display: none;
