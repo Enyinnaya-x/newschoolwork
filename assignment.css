@@ -55,7 +55,7 @@ body{
     color: #fff;
 }
 .secondset{
-    background-image: url(images/back-view-people-class\ \(5\).jpg);
+    background-image: url(images/back-view-people-class-5.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 0;
@@ -349,7 +349,7 @@ p{
     font-weight: 800 !important;
 }
 .oyanau{
-    background-image: url(images/back-view-people-class\ \(5\).jpg);
+    background-image: url(images/back-view-people-class-5.jpg);
     background-size: cover;
     background-position: center;
     height: fit-content;
